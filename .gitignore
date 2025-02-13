@@ -1,0 +1,9 @@
+
+node_modules/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
+# 排除文章路径
+src/daily-posts/
+src/tech-posts/
+src/exp-posts/
