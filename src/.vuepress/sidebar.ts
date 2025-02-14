@@ -6,8 +6,8 @@ export default sidebar({
     {
       text: "技术文章",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "tech-posts/",
+      link: "tech-posts/",
       children: "structure",
     },
     {
@@ -17,10 +17,5 @@ export default sidebar({
       children: "structure",
     },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    },
   ],
 });
